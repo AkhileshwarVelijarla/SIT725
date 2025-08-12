@@ -1,0 +1,16 @@
+{
+  "name": "teamx-5.2p-similar",
+  "version": "1.0.0",
+  "description": "TeamX \u2013 Match Schedules (mirrors 5.2P structure: server/routes/controllers/services)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
