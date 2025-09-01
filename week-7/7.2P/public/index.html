@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIT725 7.2P – Sockets Demo</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 680px; margin: 40px auto; }
+    .card { border: 1px solid #ccc; border-radius: 10px; padding: 20px; }
+    h1 { margin-top: 0; }
+    code { background: #f6f8fa; padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 style="color: red;">Socket.IO Random Number</h1>
+    <p>Live random number from server:</p>
+    <h2 id="number">Waiting…</h2>
+    <hr/>
+    
+  </div>
+
+  <!-- Load socket.io BEFORE scripts.js -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
